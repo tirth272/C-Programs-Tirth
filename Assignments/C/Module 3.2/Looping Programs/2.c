@@ -26,8 +26,22 @@ int main()
             odd_count++;
         }
     }
-    printf("\n Total Number of Even Numbers in this Array = %d ", even_count);
-    printf("\n Total Number of Odd Numbers in this Array = %d ", odd_count);
+    printf("\n Total Number of Even Numbers in this Array = %d\n ", even_count);
+    printf("\n Total Number of Odd Numbers in this Array = %d\n ", odd_count);
+
+    for (i = 0; i < a; i++)
+    {
+        if (a[i] % 2 == 0)
+        {
+            even_count = even_count + i;
+        }
+        else
+        {
+            odd_count = odd_count + i;
+        }
+        printf("sum of even numbers: %d\n", even_count);
+        printf("sum of odd numbers: %d\n", odd_count);
+    }
 
     return 0;
 }
