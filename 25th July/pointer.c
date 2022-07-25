@@ -14,8 +14,8 @@ int main()
 
     // printing the value through pointer variable
 
-    printf("\nThe Address of a using pointer variable: %u", *b);
-    printf("\nThe Address of c using pointer variable: %u", *d);
+    printf("\nThe Address of a using pointer variable: %d", *b);
+    printf("\nThe Address of c using pointer variable: %d", *d);
 
     return 0;
 }
